@@ -4,10 +4,10 @@
 		public function checkNumber($value)
 		{
 			if ($value % 2 == 0) {
-				echo 'even';
+				echo 'Nummer '.$value.' is even!';
 			}
 			else {
-				echo 'oneven';
+				echo 'Nummer '.$value.' is oneven!';
 			}
 			echo "<br>";
 		}
